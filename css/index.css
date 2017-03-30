@@ -126,9 +126,12 @@ p {
   .container {
     margin-top: 170px;
   }
-
+  
   .image {
+    width: 40%;
     height: auto;
-    margin-left: 35%;
+    margin-left: 30%;
   }
 }
+
+  
