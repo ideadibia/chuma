@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.5em/1.38 museo;
+  color: rgb(160, 160, 160);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 20%;
+  height: auto;
+  margin: 25px 0 0 10%;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  clear: both;
+  width: 75%;
+  min-height: 288px;
+  margin: 18px 0 0 15%;
+  font-size: 1em;
+  color: rgb(160, 160, 160);
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 18.8%;
+  height: 88px;
+  margin-left: 10%;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  color: #1f75fe;
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #000000;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text a:hover {
+  text-decoration: underline;
+  color: #1f75fe;
+}
