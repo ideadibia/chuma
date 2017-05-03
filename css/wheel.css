@@ -4,24 +4,18 @@ body {
   color: rgb(160, 160, 160);
 }
 
-p {
-  margin-bottom: 1em;
-}
-
 .container {
   float: left;
   clear: both;
   width: 80%;
-  height: 106px;
-  margin: 27px 0 0 10%;
+  height: 133px;
+  margin: 86px 0 0 10%;
 }
 
 .image {
   display: block;
   float: left;
-  width: 30%;
   height: auto;
-  margin: 25px 0 0 10%;
   overflow: hidden;
 }
 
@@ -29,10 +23,14 @@ p {
   float: left;
   clear: both;
   width: 75%;
-  min-height: 288px;
-  margin: 16px 0 0 15%;
+  margin-left: 15%;
   font-size: 1em;
   color: rgb(160, 160, 160);
+}
+
+.text-2 p,
+.text-3 p {
+  margin-bottom: 1em;
 }
 
 ._button {
@@ -49,7 +47,33 @@ p {
   color: #1f75fe;
 }
 
-.text a {
+.image-1 {
+  width: 30%;
+  margin: 25px 0 0 10%;
+}
+
+.image-2 {
+  clear: both;
+  width: 40%;
+  margin: 32px 0 0 30%;
+}
+
+.text-1 {
+  min-height: 122px;
+  margin-top: 16px;
+}
+
+.text-2 {
+  min-height: 107px;
+  margin-top: 32px;
+}
+
+.text-3 {
+  min-height: 79px;
+  margin-top: 16px;
+}
+
+.text span {
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
@@ -60,7 +84,6 @@ p {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: transparent;
   font-family: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -76,32 +99,30 @@ p {
   white-space: normal;
 }
 
-.text a:hover {
-  text-decoration: underline;
-  color: #1f75fe;
+.text-2 span {
+  background-color: transparent;
+}
+
+.text-3 span {
+  background-color: rgba(31, 117, 254, 0.34);
 }
 
 @media(max-width: 640px) {
-  .container {
-    position: relative;
-    z-index: 2;
-    margin-top: -154px;
-  }
-
   .image {
-    width: 40%;
     height: auto;
-    margin-left: 30%;
   }
 
   .text {
-    position: relative;
-    z-index: 1;
     width: 80%;
     margin-left: 10%;
   }
 
   ._button {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .image-1 {
     width: 40%;
     margin-left: 30%;
   }

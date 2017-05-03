@@ -1,38 +1,98 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 300 1.5em/1.38 museo;
+  font: 400 1.5em/1.38 museo;
   color: rgb(160, 160, 160);
-}
-
-p {
-  margin-bottom: 1em;
 }
 
 .container {
   float: left;
   clear: both;
   width: 80%;
-  height: 200px;
-  margin: 20px 0 0 10%;
+  height: 48px;
+  margin: 164px 0 0 10%;
 }
 
 .image {
   display: block;
   float: left;
-  width: 30%;
   height: auto;
-  margin: 25px 0 0 10%;
   overflow: hidden;
 }
 
 .text {
   float: left;
   clear: both;
-  width: 80%;
-  min-height: 318px;
-  margin: 22px 0 0 10%;
+  width: 75%;
+  margin-left: 15%;
   font-size: 1em;
   color: rgb(160, 160, 160);
+}
+
+.text-1 p,
+.text-3 p {
+  margin-bottom: 1em;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 20%;
+  height: 80px;
+  margin-left: 10%;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 1em;
+  text-align: center;
+  color: #1f75fe;
+}
+
+.image-1 {
+  width: 30%;
+  margin: 25px 0 0 10%;
+}
+
+.image-2 {
+  clear: both;
+  width: 80%;
+  margin: 16px 0 0 10%;
+}
+
+.image-3 {
+  position: relative;
+  clear: both;
+  z-index: 5;
+  width: 20%;
+  margin: 32px 0 0 10%;
+}
+
+.image-4 {
+  position: relative;
+  z-index: 6;
+  width: 20%;
+  margin: 32px 0 0 7.5%;
+}
+
+.image-5 {
+  position: relative;
+  z-index: 7;
+  width: 20%;
+  margin: 32px 0 0 10%;
+}
+
+.text-1 {
+  min-height: 368px;
+  margin-top: 16px;
+}
+
+.text-2 {
+  min-height: 150px;
+  margin-top: 16px;
+}
+
+.text-3 {
+  min-height: 98px;
+  margin-top: 32px;
 }
 
 .text a {
@@ -55,7 +115,7 @@ p {
   text-decoration: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
-  color: rgb(0, 0, 0);
+  color: #000000;
   opacity: 1;
   word-break: normal;
   word-wrap: normal;
@@ -63,36 +123,8 @@ p {
 }
 
 .text a:hover {
-  background-color: transparent;
   text-decoration: underline;
   color: #1f75fe;
-}
-
-.text em {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-color: transparent;
-  border-style: none;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  background-color: transparent;
-  font-family: inherit;
-  font-style: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  text-decoration: inherit;
-  letter-spacing: inherit;
-  word-spacing: inherit;
-  color: inherit;
-  opacity: 1;
-  word-break: normal;
-  word-wrap: normal;
-  white-space: normal;
 }
 
 .text span {
@@ -106,16 +138,16 @@ p {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: transparent;
+  background-color: rgba(31, 117, 254, 0.34);
   font-family: inherit;
-  font-style: inherit;
+  font-style: normal;
   font-size: inherit;
   font-weight: inherit;
-  text-transform: inherit;
+  text-transform: none;
   text-decoration: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
-  color: #1f75fe;
+  color: #000000;
   opacity: 1;
   word-break: normal;
   word-wrap: normal;
@@ -124,12 +156,41 @@ p {
 
 @media(max-width: 640px) {
   .container {
-    margin-top: 170px;
+    margin-top: 27px;
   }
 
   .image {
-    width: 40%;
     height: auto;
+  }
+
+  .text {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  ._button {
+    width: 40%;
     margin-left: 30%;
+  }
+
+  .image-1 {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .image-3 {
+    position: relative;
+    z-index: 5;
+  }
+
+  .image-4 {
+    position: relative;
+    z-index: 6;
+    margin-left: 10%;
+  }
+
+  .image-5 {
+    position: relative;
+    z-index: 7;
   }
 }

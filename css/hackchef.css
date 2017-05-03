@@ -12,8 +12,8 @@ p {
   float: left;
   clear: both;
   width: 80%;
-  height: 106px;
-  margin: 27px 0 0 10%;
+  height: 38px;
+  margin: 86px 0 0 10%;
 }
 
 .image {
@@ -29,7 +29,7 @@ p {
   float: left;
   clear: both;
   width: 75%;
-  min-height: 288px;
+  min-height: 71px;
   margin: 16px 0 0 15%;
   font-size: 1em;
   color: rgb(160, 160, 160);
@@ -81,13 +81,34 @@ p {
   color: #1f75fe;
 }
 
-@media(max-width: 640px) {
-  .container {
-    position: relative;
-    z-index: 2;
-    margin-top: -154px;
-  }
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgba(31, 117, 254, 0.34);
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #000000;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
 
+@media(max-width: 640px) {
   .image {
     width: 40%;
     height: auto;
@@ -95,8 +116,6 @@ p {
   }
 
   .text {
-    position: relative;
-    z-index: 1;
     width: 80%;
     margin-left: 10%;
   }
